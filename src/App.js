@@ -8,8 +8,10 @@ import {
   Code,
   Grid,
   theme,
+  Flex,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
+import LinkComponent from './Components/LinkComponent';
 import { Logo } from './Logo';
 
 function App() {
@@ -18,21 +20,9 @@ function App() {
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh" p={3}>
           <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
+          <Flex w="100%" justifyContent={center}>
+            <LinkComponent image="INSERT YOUR PFP.png" />
+          </Flex>
         </Grid>
       </Box>
     </ChakraProvider>
