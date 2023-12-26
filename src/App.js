@@ -11,7 +11,7 @@ import {
   Flex,
 } from '@chakra-ui/react';
 import { ColorModeSwitcher } from './ColorModeSwitcher';
-import LinkComponent from './Components/LinkComponent';
+import LinkComponent from './Components/LinkComponent.js';
 
 function App() {
   return (
