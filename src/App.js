@@ -22,7 +22,7 @@ function App() {
         <Grid minH="100vh" p={3}>
           <ColorModeSwitcher justifySelf="flex-end" />
           <Flex w="100%" justifyContent="center">
-            <LinkComponent image="./logo512.png" links={index} />
+            <LinkComponent image="./logo512.png" links={links}/>
           </Flex>
         </Grid>
       </Box>
