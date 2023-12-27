@@ -2,7 +2,7 @@
   "name": "orbit",
   "version": "0.1.0",
   "homepage": "https://drewdii.github.io/orbit/",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
